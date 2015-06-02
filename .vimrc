@@ -61,7 +61,8 @@ set browsedir=current           " which directory to use for the file browser
 set history=5000                  " keep 50 lines of command line history
 set hlsearch                    " highlightthe last used search pattern
 set incsearch                   " do incremental searching
-set nowrap                      " do not wrap lines
+"set nowrap                      " do not wrap lines
+set linebreak
 set popt=left:8pc,right:3pc     " print options
 set ruler                       " show the cursor position all the time
 set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%) 
