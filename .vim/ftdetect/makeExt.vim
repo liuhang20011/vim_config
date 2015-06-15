@@ -4,3 +4,4 @@ au BufNewFile,BufRead *.gmk			setf make
 au BufNewFile,BufRead *.cfg			setf make 
 au BufNewFile,BufRead *.mak			setf make 
 au BufNewFile,BufRead *.make			setf make 
+au BufNewFile,BufRead *.min			setf make 
