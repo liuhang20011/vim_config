@@ -102,6 +102,12 @@ set t_Co=256
 let g:Powerline_symbols = 'fancy'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+" NERDTree's settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+nn <silent><F2> :exec("NERDTree ".expand('%:h'))<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
 " CTags's settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
 "let Tlist_Sort_Type = "name" 
@@ -298,7 +304,7 @@ let g:CCTreeKeyTraceReverseTree = '<C-\><'
 let g:CCTreeKeyHilightTree = '<C-l>'        " Static highlighting
 let g:CCTreeKeySaveWindow = '<C-\>y'
 let g:CCTreeKeyToggleWindow = '<C-\>w'
-let g:CCTreeKeyCompressTree = 'zs'     " Compress call-tree
+let g:CCTreeKeyCompressTree = 'zs'     " Compress call-tred
 let g:CCTreeKeyDepthPlus = '<C-\>='
 let g:CCTreeKeyDepthMinus = '<C-\>-'
 
