@@ -101,6 +101,46 @@ set nocompatible
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
 
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+" Mark's settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+"Usage:
+"\m mark or unmark the word under (or before) the cursor 
+"\r manually input a regular expression
+"\n clear this mark (i.e. the mark under the cursor), or clear all highlighted marks
+"Searching: 
+"Normal mode: 
+"* # \* \# \/ \? use these six keys to jump to the other marks and you could also use VIM's / and ? to search, since the mark patterns have been added to the search history. 
+"Here is a sumerization of * # \* \# \/ \?: 
+ " First of all, \#, \? and # behave just like \*, \/ and *,
+ " respectively, 
+ " " except that \#, \? and # search backward. 
+ " " 
+ " " \*, \/ and *'s behaviors differ base on whether the cursor
+ " is currently 
+ " " placed over an active mark: 
+ " " 
+ " "       Cursor over mark                  Cursor not over mark 
+ " "
+ " --------------------------------------------------------------------------- 
+ "  "  \*   jump to the next occurrence of      jump to the next
+ "  occurrence of 
+ "  "       current mark, and remember it       "last mark". 
+ "  "       as "last mark". 
+ "  " 
+ "  "  \/   jump to the next occurrence of        same as left 
+ "  "       ANY mark. 
+ "  " 
+ "  "   *   if \* is the most recently used,        do VIM's
+ "  original * 
+ "  "       do a \*; otherwise (\/ is the 
+ "  "       most recently used), do a \/. 
+
+
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
 " NERDTree's settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
