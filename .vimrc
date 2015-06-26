@@ -71,6 +71,7 @@ set showcmd                     " display incomplete commands
 set smartindent                 " smart autoindenting when starting a new line
 set tabstop=2                   " number of spaces that a <Tab> counts for
 set visualbell                  " visual bell instead of beeping
+set cursorline                  " highlight current line 
 set number
 set noerrorbells                " 不让vim发出讨厌的滴滴声 
 set fillchars=vert:\ ,stl:\ ,stlnc:\ " 在被分割的窗口间显示空白，便于阅读 
